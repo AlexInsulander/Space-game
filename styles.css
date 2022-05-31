@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  background-image: url(image/bakgrundspace.png);
+  background-size: 100% 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#container2{
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+
+#score{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  user-select: none;
+  color: yellow;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  margin-top: -40%; 
+}
+
+.gameOver {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+#gameOver{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 150px;
+  user-select: none;
+  color: yellow;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slidecontainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.value-container{
+  margin-bottom: 25px;
+}
+
+#demo{
+  color: yellow;
+  font-size: 75px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#demo2{
+  color: yellow;
+  font-size: 75px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.start{
+  background-color: yellow;
+  border: 5px black solid;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 70px;
+}
+
+.start:hover{
+  background-color: rgb(180, 180, 0)
+}
+
+.slider {
+  width: 60%;
+  background-color: rgb(0, 0, 88);
+  height: 20px;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+  border-radius: 25px;
+}
+
+.slider::-webkit-slider-thumb{
+  cursor: pointer;
+  appearance: none;
+  height: 50px;
+  width: 20px;
+  background-color: rgb(180, 180, 0)
+}
+
+.restart{
+  background-color: yellow;
+  border: 5px black solid;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 70px;
+  margin-top: -50px;
+
+}
+
+.restart:hover{
+  background-color: rgb(180, 180, 0)
+}
+
+#restart {
+  display: flex;
+  justify-content: center;
+}
